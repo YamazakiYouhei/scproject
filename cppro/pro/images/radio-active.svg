@@ -1,0 +1,15 @@
+<svg id="radio-active.svg" xmlns="http://www.w3.org/2000/svg" width="50.188" height="50" viewBox="0 0 50.188 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #eed81b;
+      }
+    </style>
+  </defs>
+  <circle id="_" data-name="◯" class="cls-1" cx="25.094" cy="25" r="25.094"/>
+  <circle id="_2" data-name="◯" class="cls-2" cx="25.094" cy="25" r="15.063"/>
+</svg>
