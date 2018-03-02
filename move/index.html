@@ -5,6 +5,7 @@
     <title>株式会社STAR CAREER | 株式会社スターキャリア</title>
     <meta name="description" content="株式会社STAR CAREER（スターキャリア）の公式ホームページへようこそ。「私達の仮説が世界をつくる、歩む道のりは未来を面白くする」ことを使命とし、事業展開を行ってまいります。">
     <meta name="keywords" content="SublimeSlideshow,demo,jQuery,フルスクリーン,jQueryプラグイン,スライドショー,LIG">
+    <link rel="shortcut icon" href="images/favicon.ico">
     <link id="reset_css" rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/sublimeSlideshow.css" media="all" />
     <link rel="stylesheet" type="text/css" href="css/index.css" media="all" />
@@ -13,30 +14,25 @@
     <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
     <script type="text/javascript" src="js/jquery.sublimeSlideshow.js"></script>
 
-    <script type="text/javascript">
-    $(function(){
-        $.sublime_slideshow({
-            src:[
-            {url:"images/1.jpg",title:"時代が変わっても"},
-            {url:"images/2.jpg",title:"市場価値の高い力を"},
-            {url:"images/3.jpg",title:"私達は社会から愛される人財を育て"},
-            {url:"images/3.jpg",title:"日本のストアビジネスを元気にしたい"}
-            ],
-            duration:   7,
-            fade:       1,
-            scaling:    1.2,
-            rotating:   2,
-            overlay:    "images/pattern.png"
-        });
-    });
-    </script>
-
-
 </head>
 <body>
-<div id="info">
-    <a id="link" target="_blank" href="http://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/">元ネタ</a>
-</div>
+    <script type="text/javascript">
+        $(function(){
+            $.sublime_slideshow({
+                src:[
+                {url:"images/1.jpg",title:"時代が変わっても"},
+                {url:"images/2.jpg",title:"市場価値の高い力を"},
+                {url:"images/3.jpg",title:"私達は社会から愛される人財を育て"},
+                {url:"images/4.jpg",title:"日本のストアビジネスを元気にしたい"}
+                ],
+                duration:   7,
+                fade:       1,
+                scaling:    1.2,
+                rotating:   2,
+                overlay:    "images/pattern.png"
+            });
+        });
+        </script>    
 
 </body>
 </html>

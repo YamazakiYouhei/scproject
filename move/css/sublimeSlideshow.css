@@ -1,9 +1,11 @@
 .sm-slider li div h3 {
 font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
-font-size: 160px;
+font-size: 80px;
 padding: 0 30px;
 line-height: 120px;
 color: rgba(255, 255, 255, 0.8);
 margin: 0;
 margin-bottom: 0.3em;
+border-bottom: solid 3px rgba(255, 255, 255, 0.8);
 }
+.sm-slider h3:hover {
