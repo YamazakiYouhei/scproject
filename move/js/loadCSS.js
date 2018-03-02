@@ -132,9 +132,3 @@ if(BrowserDetect.OS!="Windows"){
 }
     
 })();
-
-$(window).load(function() {
-	setTimeout(function(){
-	  window.location.href = '../cppro/pro/philosophy.html';
-	}, 3000);
-  });
