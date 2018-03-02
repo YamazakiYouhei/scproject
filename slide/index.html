@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<meta name="robots" content="noindex">
+<title>「jquery.horizonScroll.js」プラグインを使用したデモページ｜仙台のホームページ制作 アドエータイプ</title>
+<meta name="keywords" content="ホームページ制作会社,仙台,宮城,ウェブサイト制作,ホームページ制作,システム開発,チラシ,広告制作,コンサルティング,CMS,WordPress,WEB,ロゴ">
+<meta name="description" content="仙台のホームページ制作アドエータイプです。こちらは「jquery.horizonScroll.js」プラグインを使用したデモページです。">
+<meta itemprop="name" content="株式会社アド･エータイプ" />
+
+<link rel="canonical" href="http://www.dataplan.jp/demo/jquery_horizonScroll/" />
+
+<link rel="stylesheet" type="text/css" href="../../css/reset.css">
+<link rel="stylesheet" type="text/css" href="../../css/layout.css">
+
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+<script type="text/javascript" src="jquery.touchSwipe.js"></script>
+<script type="text/javascript" src="jquery.horizonScroll.js"></script>
+
+<script>
+$(function () {
+	$('section').horizon();
+});
+</script>
+
+<style type="text/css">
+@media screen and (min-width: 0px) {
+div.content {
+	width: 200px;
+}
+}
+@media screen and (min-width:480px){
+div.content {
+	width: 350px;
+}
+}
+@media screen and (min-width:780px){
+div.content {
+	width: 650px;
+}
+}
+@media screen and (min-width:1020px){
+div.content {
+	width: 850px;
+}
+}
+div.content {
+	margin: 50px auto;
+    padding: 30px;
+    background: rgba(0,0,0,0.6);
+	border: 5px solid #FFF;
+}
+body {
+	/*background: #F2F2F2;*/
+	line-height: 2em;
+}
+h1, h2 {
+	margin: 30px 0;
+	clear:both;
+	color: #FFF;
+	font-size: 28px;
+	line-height: 1.2em;
+}
+p {
+	color: #FFF;
+	font-size: 14px;
+	padding: 30px 0; 
+}
+
+
+</style>
+
+
+
+<script type="text/javascript">window._pt_lt = new Date().getTime();</script>
+
+</head>
+<body>
+
+
+<div class="horizon-prev"><img src="images/l-arrow.png"></div>
+<div class="horizon-next"><img src="images/r-arrow.png"></div>
+
+<section data-role="section" id="section-section1">
+    <div class="content" class="clearfix">
+        <h1>Demo</h1>
+        <p>スクロールすると水平方向にコンテンツが移動します。</p>
+    </div>
+</section>
+<section data-role="section" id="section-section2">
+    <div class="content" class="clearfix">
+        <h1>About</h1>
+        <p>テキストテキストテキストテキストテキスト</p>
+    </div>
+</section>
+<section data-role="section" id="section-section3">
+    <div class="content" class="clearfix">
+        <h1>Blog</h1>
+        <p>テキストテキストテキストテキストテキスト</p>
+    </div>
+</section>
+<section data-role="section" id="section-section4">
+    <div class="content" class="clearfix">
+        <h1>Contact</h1>
+        <p>テキストテキストテキストテキストテキスト</p>
+    </div>
+</section>
+
+
+
+<script type="text/javascript">
+	window._pt_sp_2 = [];
+	_pt_sp_2.push('setAccount,7a7f9b69');
+	var _protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+	(function() {
+		var atag = document.createElement('script'); atag.type = 'text/javascript'; atag.async = true;
+		atag.src = _protocol + 'js.ptengine.jp/pta.js';
+		var stag = document.createElement('script'); stag.type = 'text/javascript'; stag.async = true;
+		stag.src = _protocol + 'js.ptengine.jp/pts.js';
+		var s = document.getElementsByTagName('script')[0]; 
+		s.parentNode.insertBefore(atag, s);s.parentNode.insertBefore(stag, s);
+	})();
+</script>
+
+
+</body>
+</html>
